@@ -1,7 +1,4 @@
-/* --------------------------------------------
-  CSS
-  RESET
-  ------------------------------------------------ */
+/* -------------------------------------------- CSS RESET ------------------------------------------------ */
 html,
 body,
 div,
@@ -686,13 +683,10 @@ i,
     margin: 0 0 0 24vh;
   }
 
-  .section-item {
-    /* display: flex; */
-    /* flex-flow: wrap; */
-  }
-
   aside {
     flex: 0 1 28vw;
+    height: fit-content;
+    margin: 8vh;
   }
 
   aside h3 {
@@ -777,11 +771,16 @@ i,
 
   /* ----------------------------------------------------------  FOOTER  ------------------------------------------------------  */
 
+  footer {
+    height: 17vh;
+  }
+
   .footer-frame img {
     display: flex;
-    margin-left: -2vw;
-    width: 150px;
-    height: 20px;
+    margin-left: -4.5vw;
+    margin-bottom: 1.3vw;
+    width: 115px;
+    height: 15px;
     color: white;
   }
 
@@ -789,10 +788,10 @@ i,
     /* margin-bottom: 10px; */
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #4f4f51;
     width: 100%;
     height: 100%;
-    padding-top: 4%;
   }
 
   .footer-list {
@@ -801,12 +800,28 @@ i,
   }
 
   .footer-list li {
+    display: inline;
+  }
+
+  .footer-list li a {
     color: white;
   }
 
-  .copyright {
+  .footer-nav {
     display: flex;
-    justify-content: center;
+    flex-flow: row-reverse nowrap;
+    font-size: 0.9vw;
+  }
+
+  .separador {
+    color: #5c5c5e;
+    padding-right: 0.5vw;
+  }
+
+  .copyright {
+    align-self: center;
     color: white;
+    padding: 0.2vw;
+    margin-bottom: 1vh;
   }
 }
