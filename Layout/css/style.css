@@ -624,16 +624,8 @@ i,
 
   /* LOGOTYPE  */
   .logotype {
-    display: flex;
-    align-items: baseline;
     margin-left: -123px;
-    flex-basis: ;
-    width: 16vw;
-    height: auto;
-  }
-
-  .logotype img {
-    max-width: 100%;
+    max-width: 16%;
     height: auto;
   }
 
@@ -641,15 +633,20 @@ i,
 
   .social-icons {
     align-self: flex-start;
-    /* width: 5%; */
   }
 
-  li {
-    margin: 3px;
+  .social-icons li {
+    padding: 0;
+    margin: 0px 2px;
   }
 
   .fa {
     color: #ed5901;
+    -ms-transform: scale(0.7); /* IE */
+    -moz-transform: scale(0.7); /* FF */
+    -webkit-transform: scale(0.7); /* Safari and Chrome */
+    -o-transform: scale(0.7); /* Opera */
+    transform: scale(0.7);
   }
 
   /* SEPARATOR IMAGE  */
