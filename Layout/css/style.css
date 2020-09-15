@@ -684,18 +684,41 @@ i,
   }
 
   aside {
-    flex: 0 1 28vw;
-    height: fit-content;
+    flex: 0 1 18vw;
+    height: 52vh;
     margin: 8vh;
+    font-size: small;
   }
 
   aside h3 {
     display: flex;
     text-transform: uppercase;
-    /* text-align: end; */
-    padding-left: 50px;
-    padding: 10px 0px 0px 50px;
+    justify-content: center;
+    padding: 20px;
     color: #ed5901;
+  }
+
+  .form {
+    text-align: center;
+    padding-left: 1vw;
+    margin-top: 0vw;
+  }
+
+  input[type="text"],
+  [type="email"] {
+    width: 13vw;
+    border: 1px solid lightgray;
+    padding: 7px;
+    color: #ececec;
+  }
+
+  /* input[type="email"] {
+    width: 13vw;
+    border: 1px solid lightgrey;
+    padding: 5px;
+  } */
+
+  .checkbox {
   }
 
   .ebook-img {
