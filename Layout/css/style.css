@@ -836,7 +836,7 @@ i,
 
   .footer-frame img {
     display: flex;
-    margin-left: -4.5vw;
+    margin-left: -9vw;
     margin-bottom: 1.3vw;
     width: 115px;
     height: 15px;
@@ -851,6 +851,8 @@ i,
     background-color: #4f4f51;
     width: 100%;
     height: 100%;
+    margin: 0vw;
+    padding: 0vw 2.5vw;
   }
 
   .footer-list {
@@ -869,12 +871,13 @@ i,
   .footer-nav {
     display: flex;
     flex-flow: row-reverse nowrap;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
   }
 
   .separador {
     color: #5c5c5e;
-    padding-right: 0.5vw;
+    /* padding-right: 0.3vw; */
+    padding: 0vw 0.4vw;
   }
 
   .copyright {
