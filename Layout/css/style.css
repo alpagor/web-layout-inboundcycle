@@ -685,7 +685,7 @@ i,
 
   aside {
     flex: 0 1 18vw;
-    height: 52vh;
+    height: 44vh;
     margin: 8vh;
     font-size: small;
   }
@@ -693,6 +693,7 @@ i,
   aside h3 {
     display: flex;
     text-transform: uppercase;
+    font-size: 0.9vw;
     justify-content: center;
     padding: 20px;
     color: #ed5901;
@@ -817,6 +818,19 @@ i,
   .emphasizes i {
     display: flex;
     padding-left: 10px;
+  }
+
+  #myBtn {
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0.4vw 2vw;
+    cursor: pointer;
   }
 
   /* ----------------------------------------------------------  FOOTER  ------------------------------------------------------  */
