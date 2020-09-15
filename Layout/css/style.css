@@ -619,7 +619,7 @@ i,
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    margin: 3vh;
+    margin: 3.4vh;
   }
 
   /* LOGOTYPE  */
@@ -654,7 +654,7 @@ i,
   .separator-image {
     display: flex;
     align-items: stretch;
-    height: 120px;
+    height: 110px;
     width: 100vw;
   }
 
@@ -670,6 +670,7 @@ i,
   .wrapper {
     display: flex;
     flex-direction: row;
+    margin-bottom: 5vh;
   }
 
   section {
@@ -774,24 +775,23 @@ i,
     color: #ed5901;
     line-height: 2.7vw;
     text-align: left;
-    margin-top: -35vh;
     width: 400px;
     font-weight: 500;
-    margin: -30vh 0vh 0vh;
+    margin: -32vh 0vh 0vh;
   }
 
   .ebook-info hr {
     display: flex;
-    margin: 1.7vw 2vw 1.2vw 0vw;
+    margin: 1vw 2vw 1.2vw 0vw;
     width: 50vw;
     opacity: 0.1;
   }
 
   .ebook-info h2 {
     width: 400px;
-    margin: 1.5vw 0vw;
+    margin: 1.1vw 0vw;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: #9c9898;
     text-align: left;
   }
@@ -800,8 +800,8 @@ i,
     padding-bottom: 15px;
     width: 54vw;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
-    line-height: 1.6vw;
+    font-size: 0.9vw;
+    line-height: 1.5vw;
     text-align: justify;
   }
 
