@@ -726,13 +726,25 @@ i,
     padding: 7px;
   }
 
-  /* input[type="email"] {
-    width: 13vw;
-    border: 1px solid lightgrey;
-    padding: 5px;
-  } */
-
   .checkbox {
+    font-size: smaller;
+    margin-top: 0vw;
+  }
+
+  .checkbox label {
+    display: flex;
+    padding-left: 1.1vw;
+  }
+
+  input[type="checkbox"] {
+    /* sized Checkboxes */
+    -ms-transform: scale(0.7); /* IE */
+    -moz-transform: scale(0.7); /* FF */
+    -webkit-transform: scale(0.7); /* Safari and Chrome */
+    -o-transform: scale(0.7); /* Opera */
+    transform: scale(0.7);
+    margin-right: 0.3vw;
+    margin-bottom: 0.4vw;
   }
 
   .ebook-img {
@@ -748,8 +760,9 @@ i,
     z-index: 1;
   }
 
-  #enlace {
+  [href="#"] {
     color: #ed5901;
+    padding-left: 0.3vw;
   }
 
   .ebook-info {
