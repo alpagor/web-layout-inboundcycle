@@ -619,12 +619,12 @@ i,
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    margin: 3.4vh;
+    margin: 3.4vh -4.2vh;
   }
 
   /* LOGOTYPE  */
   .logotype {
-    margin-left: -123px;
+    margin-left: -11.5vw;
     max-width: 16%;
     height: auto;
   }
@@ -633,6 +633,7 @@ i,
 
   .social-icons {
     align-self: flex-start;
+    margin-right: -12vw;
   }
 
   .social-icons li {
@@ -654,7 +655,7 @@ i,
   .separator-image {
     display: flex;
     align-items: stretch;
-    height: 110px;
+    height: 8vw;
     width: 100vw;
   }
 
@@ -684,7 +685,7 @@ i,
   aside {
     flex: 0 1 18vw;
     height: 44vh;
-    margin: 8vh;
+    margin: 8vh 17vw 0vw 0vw;
     font-size: small;
   }
 
@@ -769,12 +770,12 @@ i,
   }
 
   .ebook-info h1 {
-    padding-bottom: 15px;
+    padding-bottom: 1.06vw;
     font-size: 2vw;
     color: #ed5901;
     line-height: 2.5vw;
     text-align: left;
-    width: 360px;
+    width: 26vw;
     font-weight: 500;
     margin: -32vh 0vh 0vh;
   }
@@ -787,7 +788,7 @@ i,
   }
 
   .ebook-info h2 {
-    width: 300px;
+    width: 22vw;
     margin: 1.1vw 0vw;
     font-size: 1.2vw;
     color: #9c9898;
