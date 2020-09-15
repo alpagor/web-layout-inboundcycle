@@ -773,9 +773,9 @@ i,
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
     color: #ed5901;
-    line-height: 2.7vw;
+    line-height: 2.5vw;
     text-align: left;
-    width: 400px;
+    width: 360px;
     font-weight: 500;
     margin: -32vh 0vh 0vh;
   }
@@ -788,27 +788,28 @@ i,
   }
 
   .ebook-info h2 {
-    width: 400px;
+    width: 300px;
     margin: 1.1vw 0vw;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
     color: #9c9898;
     text-align: left;
+    line-height: 1.6vw;
   }
 
   .ebook-info p {
     padding-bottom: 15px;
-    width: 54vw;
+    width: 48.2vw;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9vw;
-    line-height: 1.5vw;
+    line-height: 1.4vw;
     text-align: justify;
   }
 
   .emphasizes {
     align-self: center;
     margin-top: 8vh;
-    font-size: 1vw;
+    font-size: 0.9vw;
     /* justify-content: space-around; */
   }
 
