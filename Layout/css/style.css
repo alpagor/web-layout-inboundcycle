@@ -704,12 +704,26 @@ i,
     margin-top: 0vw;
   }
 
+  ::placeholder {
+    color: lightgray;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ececec;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #ececec;
+  }
+
   input[type="text"],
   [type="email"] {
     width: 13vw;
     border: 1px solid lightgray;
     padding: 7px;
-    color: #ececec;
   }
 
   /* input[type="email"] {
