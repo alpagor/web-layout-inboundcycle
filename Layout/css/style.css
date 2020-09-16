@@ -669,6 +669,7 @@ i,
   .wrapper {
     display: flex;
     flex-direction: column;
+    margin: 0;
   }
 
   section {
@@ -725,6 +726,7 @@ i,
     font-size: 2.1vw;
     padding-bottom: 1vw;
     align-self: center;
+    margin: 1vw 2vw;
   }
 
   .checkbox label {
@@ -739,8 +741,7 @@ i,
     -webkit-transform: scale(1.3); /* Safari and Chrome */
     -o-transform: scale(1.3); /* Opera */
     transform: scale(1.3);
-    margin-right: 0.3vw;
-    margin-bottom: 0.4vw;
+    margin: 0.6vw 1.5vw 0vw 0vw;
   }
 
   .ebook-img {
