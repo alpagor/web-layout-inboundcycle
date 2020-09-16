@@ -613,34 +613,35 @@ i,
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    margin: 3.4vh -4.2vh;
+    padding: 4vw;
   }
 
   /* LOGOTYPE  */
   .logotype {
     max-width: 100%;
     height: auto;
+    padding-right: 30vw;
   }
 
   /* SOCIAL ICONS */
 
   .social-icons {
     align-self: flex-start;
-    margin-right: -12vw;
+    padding: 0vw 3vw;
   }
 
   .social-icons li {
     padding: 0;
-    margin: 0px 2px;
+    margin: 0vw 1vw;
   }
 
   .fa {
     color: #ed5901;
-    -ms-transform: scale(2); /* IE */
-    -moz-transform: scale(2); /* FF */
-    -webkit-transform: scale(2); /* Safari and Chrome */
-    -o-transform: scale(2); /* Opera */
-    transform: scale(2);
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
   }
 
   /* SEPARATOR IMAGE  */
