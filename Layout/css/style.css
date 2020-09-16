@@ -815,8 +815,9 @@ i,
   }
 
   .footer-frame img {
-    display: flex;
-    margin-bottom: 1.3vw;
+    display: inline-block;
+    margin: 7.3vw;
+    padding-right: 7vw;
     width: 20%;
     height: auto;
     color: white;
@@ -850,7 +851,8 @@ i,
   .footer-nav {
     display: flex;
     flex-flow: row-reverse nowrap;
-    font-size: 1.6vw;
+    font-size: 2vw;
+    padding-bottom: 2vw;
   }
 
   .separador {
@@ -863,8 +865,8 @@ i,
     align-self: center;
     color: white;
     padding: 0.2vw;
-    margin-bottom: 1vh;
-  }
+    margin-bottom: 0.5vh;
+    margin-left: -6vw;
 }
 
 /* -------------------------------------------------------------- LAPTOPS ------------------------- */
