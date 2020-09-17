@@ -910,55 +910,28 @@ i,
 
   .footer-frame img {
     display: inline-block;
-    margin: 7.3vw;
-    padding-right: 7vw;
-    width: 20%;
-    height: auto;
-    color: white;
+    padding: 0vw;
+    width: 25%;
   }
 
   .footer-frame {
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-color: #4f4f51;
-    width: 100%;
-    height: 100%;
-    margin: 0vw;
     padding: 0vw 3.5vw;
   }
 
   .footer-list {
-    margin-bottom: 10px;
-    padding: 5px;
-  }
-
-  .footer-list li {
-    display: inline;
-  }
-
-  .footer-list li a {
-    color: white;
+    margin-bottom: 1vw;
   }
 
   .footer-nav {
-    display: flex;
     flex-flow: row-reverse nowrap;
-    font-size: 2vw;
-    padding-bottom: 2vw;
-  }
-
-  .separador {
-    color: #5c5c5e;
-    /* padding-right: 0.3vw; */
-    padding: 0vw 0.4vw;
+    font-size: 2.2vw;
+    margin-right: -4vw;
   }
 
   .copyright {
-    align-self: center;
-    color: white;
-    padding: 0.2vw;
     margin-bottom: 0.5vh;
     margin-left: -6vw;
   }
