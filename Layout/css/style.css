@@ -680,6 +680,28 @@ i,
     align-self: center;
   }
 
+  .checkbox {
+    font-size: 2vw;
+  }
+
+  footer {
+    height: 12vh;
+    margin-left: 17.3vw;
+    margin-right: 9vw;
+    margin-top: 3vw;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    font-size: 1.7vw;
+    margin-top: 2.5vw;
+  }
+
+  .copyright {
+    margin-bottom: 4vh;
+  }
+
   /* The Modal (background) */
   .popup {
     top: 35vh;
