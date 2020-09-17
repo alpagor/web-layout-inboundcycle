@@ -938,11 +938,9 @@ i,
   }
 }
 
-/* ----------------------------------------------------- IPAD PRO 12.9" LANDSCAPE --------------------------------------- */
-
 /* -------------------------------------------------------------- LAPTOPS ------------------------- */
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
   /* BODY */
 
   /* body {
@@ -1090,7 +1088,9 @@ i,
   /*-----------------------------  ASIDE  ------------------------*/
 
   aside {
-    flex: 0 1 18vw;
+    /* flex: 0 1 18vw; */
+    display: flex;
+    flex-direction: column;
     height: 43vh;
     margin: 6vh 5vw 0vw -7vw;
     font-size: small;
@@ -1178,9 +1178,9 @@ i,
     text-transform: uppercase;
     display: inline-block;
     font-weight: 600; */
-    margin: 0.4vw 2vw;
+    /* margin: 0.4vw 2vw; */
     /* cursor: pointer; */
-    margin-top: 2vw;
+    margin-top: 1vw;
   }
 
   /* ----------------------------------------------------------  FOOTER  ------------------------------------------------------  */
