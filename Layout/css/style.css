@@ -554,22 +554,58 @@ input[type="checkbox"] {
 
 /* ----------------------------------------------------------  FOOTER  ------------------------------------------------------  */
 
+footer {
+  height: 12vh;
+  margin-left: 17.3vw;
+  margin-right: 9vw;
+  margin-top: 3vw;
+}
+
 .footer-frame img {
   display: none;
 }
 
 .footer-frame {
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4f4f51;
+  width: 100%;
+  height: 100%;
+  margin: 0vw;
+  padding: 0vw 2.5vw;
 }
 
 .footer-list {
-  margin-bottom: 10px;
-  padding: 5px;
+  margin-bottom: 2.6vw;
+}
+
+.footer-list li {
+  display: inline;
+}
+
+.footer-list li a {
+  color: white;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.6vw;
+  margin-right: 4vw;
+}
+
+.separador {
+  color: #5c5c5e;
+  /* padding-right: 0.3vw; */
+  padding: 0vw 0.4vw;
 }
 
 .copyright {
-  display: flex;
-  justify-content: center;
+  align-self: center;
+  color: white;
+  padding: 0.2vw;
+  margin-bottom: 1vh;
 }
 
 /* ----------------------------------------------------------  POP-UP  ------------------------------------------------------  */
