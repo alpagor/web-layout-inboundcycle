@@ -777,12 +777,6 @@ i,
 
   /* ----------------------------------------------------------  WRAPER (SECTION & ASIDE)  ------------------------------------------------------  */
 
-  /* .wrapper {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-  } */
-
   section {
     display: flex;
     flex-direction: column;
@@ -805,7 +799,6 @@ i,
   .ebook-info h1 {
     padding-bottom: 1.6vw;
     font-size: 4vw;
-    /* color: #ed5901; */
     line-height: 4.5vw;
     text-align: left;
     width: 52vw;
@@ -818,7 +811,6 @@ i,
     margin: 1.1vw 0vw 1vw 21vw;
     padding-bottom: 1.6vw;
     font-size: 3vw;
-    /* color: #9c9898; */
     text-align: left;
     line-height: 3.6vw;
   }
@@ -838,7 +830,7 @@ i,
   /*----------  ASIDE  ---------*/
 
   aside {
-    height: 21.5vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -856,7 +848,7 @@ i,
   .form {
     align-self: center;
     padding-left: 1vw;
-    margin-top: 0vw;
+    margin: 0vw;
   }
 
   ::placeholder {
@@ -885,11 +877,9 @@ i,
     font-size: 2.1vw;
     padding-bottom: 1vw;
     align-self: center;
-    margin: 1vw 2vw;
   }
 
   .checkbox label {
-    display: flex;
     padding-left: 1vw;
   }
 
@@ -909,16 +899,7 @@ i,
   }
 
   #myBtn {
-    border: none;
-    color: white;
-    padding: 1.7vw 3vw;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    font-weight: 600;
-    margin: 0vw 40vw;
-    cursor: pointer;
+    font-size: 2vw;
   }
 
   /* ----------------------------------------------------------  FOOTER  ------------------------------------------------------  */
