@@ -1190,12 +1190,12 @@ i,
   }
 
   .footer-frame img {
-    display: flex;
-    margin-left: -9vw;
-    margin-bottom: 1.3vw;
-    width: 115px;
-    height: 15px;
-    color: white;
+    /* display: flex; */
+    display: block;
+    /* margin-left: -9vw;  */
+    margin-left: -4vw;
+    /* color: white; */
+    margin-bottom: 1vw;
   }
 
   .footer-frame {
@@ -1225,7 +1225,7 @@ i,
   .footer-nav {
     display: flex;
     flex-flow: row-reverse nowrap;
-    font-size: 0.8vw;
+    font-size: 1vw;
   }
 
   .separador {
