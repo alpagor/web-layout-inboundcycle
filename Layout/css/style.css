@@ -380,12 +380,12 @@ body {
 }
 
 .logotype {
-  margin: 10px 23px;
+  margin: 2.6vw 5.6vw;
 }
 
 .social-icons {
   display: flex;
-  margin-bottom: 2vw;
+  margin: 2vw 0vw 3vw 0vw;
 }
 
 .social-icons li {
@@ -407,6 +407,10 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
+}
+
+[href="#"] {
+  color: #ed5901;
 }
 
 .ebook-img {
@@ -452,44 +456,100 @@ body {
   text-align: center;
   font-weight: bold;
   color: #ed5901;
-  margin-left: 17.3vw;
-  margin-right: 4vw;
+  margin: 1vw 4vw 3vw 17.3vw;
 }
 
 .emphasizes i {
   display: none;
 }
 
+/*----------------------------------------------------  ASIDE ---------------------------------------------------*/
+
 aside {
   background-color: #ececec;
+  margin-left: 17.3vw;
+  margin-right: 4vw;
+  padding: 2vw;
 }
 
 aside h3 {
   display: none;
 }
 
-fieldset {
-  /* margin-bottom: 10px; */
-  margin: 5px 10px;
+.form {
+  margin: 2vw 4vw 0vw 4vw;
+  display: flex;
+  align-items: center;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+::placeholder {
+  color: lightgray;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ececec;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ececec;
 }
 
 input {
-  margin-bottom: 12px;
-  margin-right: 12px;
+  margin-bottom: 3vw;
+}
+
+input[type="text"],
+[type="email"] {
+  border: 0.2vw solid lightgray;
+  padding: 1vw 2vw;
 }
 
 #myBtn {
   background-color: #ed5901;
   color: white;
+  border: none;
+  padding: 1.2vw 7vw;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 600;
+  font-size: small;
+  margin: 0vw 20vw 3vw 20vw;
+  cursor: pointer;
 }
 
 .checkbox {
+  font-size: 3vw;
+  margin: 1vw 2vw 1vw 5vw;
+}
+
+.checkbox label {
   display: flex;
+  margin-right: 4vw;
+}
+
+input[type="checkbox"] {
+  /* sized Checkboxes */
+  -ms-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  margin: 0.1vw 1.5vw 2vw 0vw;
+}
+
+.checkbox [href="#"] {
+  padding-left: 1vw;
 }
 
 /* ----------------------------------------------------------  FOOTER  ------------------------------------------------------  */
