@@ -997,7 +997,7 @@ i,
   .separator-image {
     display: flex;
     align-items: stretch;
-    height: 8vw;
+    height: 9vw;
     /* width: 100vw; */
     filter: brightness(0.93);
   }
@@ -1031,8 +1031,8 @@ i,
   }
 
   .ebook-img img {
-    margin-left: 36.3vw;
-    margin-top: -2vh;
+    margin-left: 36.2vw;
+    margin-top: -2.6vh;
     width: 17vw;
     height: auto;
     /* z-index: 1; */
@@ -1091,23 +1091,25 @@ i,
 
   aside {
     flex: 0 1 18vw;
-    height: 44vh;
-    margin: 8vh 17vw 0vw 0vw;
+    height: 43vh;
+    margin: 6vh 5vw 0vw -7vw;
     font-size: small;
+    padding: 0;
+    width: 22vw;
   }
 
   aside h3 {
     display: flex;
     text-transform: uppercase;
-    font-size: 0.9vw;
+    font-size: medium;
     justify-content: center;
-    padding: 20px;
+    padding: 1.8vw;
     color: #ed5901;
   }
 
   .form {
     text-align: center;
-    padding-left: 1vw;
+    /* padding-left: 1vw; */
     margin-top: 0vw;
   }
 
@@ -1128,29 +1130,32 @@ i,
 
   input[type="text"],
   [type="email"] {
-    width: 13vw;
-    border: 1px solid lightgray;
-    padding: 7px;
+    width: 15vw;
+    /* border: 1px solid lightgray; */
+    padding: 10px;
+    margin: 0vw 0vw 1vw;
   }
 
   .checkbox {
-    font-size: smaller;
-    margin-top: 0vw;
+    font-size: 1vw;
+    /* margin-top: 0vw; */
+    width: 100%;
+    margin: 1vw 0vw 0vw 6vw;
   }
 
-  .checkbox label {
+  /* .checkbox label {
     display: flex;
     padding-left: 1.1vw;
-  }
+  } */
 
   input[type="checkbox"] {
     /* sized Checkboxes */
-    -ms-transform: scale(0.7); /* IE */
-    -moz-transform: scale(0.7); /* FF */
-    -webkit-transform: scale(0.7); /* Safari and Chrome */
-    -o-transform: scale(0.7); /* Opera */
-    transform: scale(0.7);
-    margin-right: 0.3vw;
+    -ms-transform: scale(0.9); /* IE */
+    -moz-transform: scale(0.9); /* FF */
+    -webkit-transform: scale(0.9); /* Safari and Chrome */
+    -o-transform: scale(0.9); /* Opera */
+    transform: scale(0.9);
+    margin-right: 0.4vw;
     margin-bottom: 0.4vw;
   }
 
@@ -1165,16 +1170,17 @@ i,
   } */
 
   #myBtn {
-    border: none;
-    color: white;
-    padding: 9px 32px;
-    text-align: center;
+    /* border: none;
+    color: white; */
+    padding: 1vw 5.2vw;
+    /* text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 600; */
     margin: 0.4vw 2vw;
-    cursor: pointer;
+    /* cursor: pointer; */
+    margin-top: 2vw;
   }
 
   /* ----------------------------------------------------------  FOOTER  ------------------------------------------------------  */
