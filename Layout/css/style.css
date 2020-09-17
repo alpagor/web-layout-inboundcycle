@@ -356,12 +356,12 @@ textarea {
 
 /* ----------------------------------------------------------  STYLES  ------------------------------------------------------  */
 
+/* ------------------------------------------------------------  IPHONE 6S PLUS  ------------------------------------------------------  */
+
 /* ------------------------------------------------------------  BODY  ------------------------------------------------------  */
 
 body {
-  padding: 11px;
   font-family: Arial, Helvetica, sans-serif;
-  /* max-width: 320px; */
 }
 
 /* ----------------------------------------------------------  HEADER  ------------------------------------------------------  */
@@ -372,15 +372,11 @@ body {
   margin-top: 0px;
 }
 
-header {
-  display: flex;
-}
-
 .container {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
+  padding-left: 12.5vw;
 }
 
 .logotype {
@@ -389,11 +385,11 @@ header {
 
 .social-icons {
   display: flex;
-  margin-bottom: 8px;
+  margin-bottom: 2vw;
 }
 
 .social-icons li {
-  padding: 0 5px;
+  padding: 0 1.2vw;
 }
 
 .social-icons .fa {
@@ -409,24 +405,21 @@ header {
 /* ----------------------------------------------------------  WRAPER (SECTION & ASIDE)  ------------------------------------------------------  */
 
 .wrapper {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.ebook-info {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .ebook-img {
   display: none;
 }
 .ebook-info h1 {
-  padding-bottom: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 6vw;
+  padding-bottom: 2vw;
+  font-size: 5vw;
   color: #ed5901;
-  line-height: 6.5vw;
+  line-height: 5.5vw;
   text-align: justify;
+  margin-left: 17.3vw;
+  margin-right: 4vw;
 }
 
 .ebook-info hr {
@@ -434,28 +427,33 @@ header {
 }
 
 .ebook-info h2 {
-  padding-bottom: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 5vw;
+  padding-bottom: 2vw;
+  font-size: 3.7vw;
+  line-height: 4.5vw;
   color: #9c9898;
   text-align: justify;
+  margin-left: 17.3vw;
+  margin-right: 4vw;
 }
 
 .ebook-info p {
-  padding-bottom: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 4vw;
+  padding-bottom: 2vw;
+  font-size: 3.2vw;
+  line-height: 4vw;
   text-align: justify;
+  margin-left: 17.3vw;
+  margin-right: 4vw;
 }
 
 .emphasizes {
-  font-size: 4vw;
+  font-size: 2.6vw;
   text-transform: uppercase;
   padding: 4px;
   text-align: center;
   font-weight: bold;
   color: #ed5901;
-  /* background-color: #ececec; */
+  margin-left: 17.3vw;
+  margin-right: 4vw;
 }
 
 .emphasizes i {
@@ -867,6 +865,44 @@ i,
     padding: 0.2vw;
     margin-bottom: 0.5vh;
     margin-left: -6vw;
+  }
+}
+
+/* ----------------------------------------------------- IPAD PRO 12.9" LANDSCAPE --------------------------------------- */
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* BODY */
+
+  body {
+    padding: 0px;
+  }
+
+  /* HEADER  */
+
+  .fa {
+    color: #ed5901;
+    -ms-transform: scale(1.2); /* IE */
+    -moz-transform: scale(1.2); /* FF */
+    -webkit-transform: scale(1.2); /* Safari and Chrome */
+    -o-transform: scale(1.2); /* Opera */
+    transform: scale(1.2);
+  }
+
+  /* SEPARATOR IMAGE  */
+
+  .separator-image {
+    display: flex;
+    align-items: stretch;
+    height: 8vw;
+    width: 100vw;
+  }
+
+  .separator-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.7;
+  }
 }
 
 /* -------------------------------------------------------------- LAPTOPS ------------------------- */
@@ -881,7 +917,6 @@ i,
   /* HEADER  */
 
   .header-line {
-    /* margin: 50vh; */
     height: 3px;
     background-color: #ed5901;
   }
