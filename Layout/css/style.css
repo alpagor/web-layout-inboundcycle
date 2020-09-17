@@ -719,11 +719,6 @@ i,
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    padding: 0vw;
-    margin: 0vw;
-  }
-
   /* HEADER  */
 
   header {
@@ -734,7 +729,7 @@ i,
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    padding: 4vw;
+    padding: 4vw 4vw 4vw 16vw;
   }
 
   /* LOGOTYPE  */
@@ -771,7 +766,6 @@ i,
     display: flex;
     align-items: stretch;
     height: 18vw;
-    width: 100vw;
   }
 
   .separator-image img {
