@@ -777,17 +777,65 @@ i,
 
   /* ----------------------------------------------------------  WRAPER (SECTION & ASIDE)  ------------------------------------------------------  */
 
-  .wrapper {
+  /* .wrapper {
     display: flex;
     flex-direction: column;
     margin: 0;
-  }
+  } */
 
   section {
     display: flex;
     flex-direction: column;
     margin: 2vw 0vw;
   }
+
+  .ebook-img {
+    display: block;
+    margin: 0vh 13vh 0vh 22vh;
+  }
+
+  .ebook-img img {
+    margin-left: 50vw;
+    margin-top: 15vh;
+    width: 25vw;
+    height: auto;
+    z-index: 1;
+  }
+
+  .ebook-info h1 {
+    padding-bottom: 1.6vw;
+    font-size: 4vw;
+    /* color: #ed5901; */
+    line-height: 4.5vw;
+    text-align: left;
+    width: 52vw;
+    font-weight: 500;
+    margin: -34vh 0vh 0vh 16vh;
+  }
+
+  .ebook-info h2 {
+    width: 66vw;
+    margin: 1.1vw 0vw 1vw 21vw;
+    padding-bottom: 1.6vw;
+    font-size: 3vw;
+    /* color: #9c9898; */
+    text-align: left;
+    line-height: 3.6vw;
+  }
+
+  .ebook-info p {
+    width: 54vw;
+    font-size: 1.9vw;
+    line-height: 2.6vw;
+    margin-left: 21vw;
+  }
+
+  .emphasizes {
+    margin-top: 2vh;
+    font-size: 1.9vw;
+  }
+
+  /*----------  ASIDE  ---------*/
 
   aside {
     height: 21.5vh;
@@ -855,55 +903,9 @@ i,
     margin: 0.6vw 1.5vw 0vw 0vw;
   }
 
-  .ebook-img {
-    display: block;
-    margin: 0vh 13vh;
-  }
-
-  .ebook-img img {
-    margin-left: 50vw;
-    margin-top: 15vh;
-    width: 25vw;
-    height: auto;
-    z-index: 1;
-  }
-
   [href="#"] {
     color: #ed5901;
     padding-left: 0.3vw;
-  }
-
-  .ebook-info h1 {
-    padding-bottom: 1.6vw;
-    font-size: 4vw;
-    color: #ed5901;
-    line-height: 4.5vw;
-    text-align: left;
-    width: 52vw;
-    font-weight: 500;
-    margin: -34vh 0vh 0vh 6vh;
-  }
-
-  .ebook-info h2 {
-    width: 66vw;
-    margin: 1.1vw 0vw 1vw 8vw;
-    padding-bottom: 1.6vw;
-    font-size: 3vw;
-    color: #9c9898;
-    text-align: left;
-    line-height: 3.6vw;
-  }
-
-  .ebook-info p {
-    width: 54vw;
-    font-size: 1.9vw;
-    line-height: 2.6vw;
-    margin-left: 8vw;
-  }
-
-  .emphasizes {
-    margin-top: 2vh;
-    font-size: 1.9vw;
   }
 
   #myBtn {
